@@ -105,7 +105,7 @@ button:hover{
     grid-column-end: 3; 
 }
 
-@media screen and (max-width: 375px) {
+@media only screen and (min-width: 375px) {
     .title {
         max-width: 300px;
         font-size: 40px;
